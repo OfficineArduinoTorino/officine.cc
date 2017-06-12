@@ -20,7 +20,9 @@ Fablab Torino.
 We built Casa Jasmina in order to encourage industries that will create tomorrow's living spaces. Casa Jasmina is an incubator, and its purpose is industry-boosting in the Italian IoT space.
 
 <div class="photo-carousel">
-    <img src="/images/blog/img-01.jpg">
-    <img src="/images/blog/img-02.jpg">
-    <img src="/images/blog/img-03.jpg">
+    <img src="/images/projects/41.jpg">
+    <img src="/images/projects/34.jpg">
+    <img src="/images/projects/13.jpg">
+    <img src="/images/projects/38.jpg">
+    <img src="/images/projects/14 (1).jpg">
 </div>
