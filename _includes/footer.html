@@ -1,0 +1,85 @@
+<!-- Site Footer -->
+<footer class="site-footer" id="footer">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 col-md-push-3 footer-info text-center">
+
+        <div class="footer-logo">
+          <img src="{{ site.baseurl }}/images/logo-focus.svg" width="140" alt="{{ site.title }}" />
+        </div>
+
+        <div class="footer-info-text">
+          <p>{{ site.footer-description }}</p>
+        </div>
+
+        <div class="social-icons">
+          <ul class="icons">
+            {% if site.youtube != null and site.youtube != '#' %}
+            <li><a href="{{ site.youtube }}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            {% endif %}
+
+            {% if site.pinterest != null and site.pinterest != '#' %}
+            <li><a href="{{ site.pinterest }}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+            {% endif %}
+
+            {% if site.instagram != null and site.instagram != '#' %}
+            <li><a href="{{ site.instagram }}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            {% endif %}
+
+            {% if site.facebook != null and site.facebook != '#' %}
+            <li><a href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            {% endif %}
+
+            {% if site.twitter != null and site.twitter != '#' %}
+            <li><a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            {% endif %}
+
+            {% if site.google-plus != null and site.google-plus != '#' %}
+            <li><a href="{{ site.google-plus }}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            {% endif %}
+
+            {% if site.vimeo != null and site.vimeo != '#' %}
+            <li><a href="{{ site.vimeo }}" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+            {% endif %}
+
+            {% if site.skype != null and site.skype != '#' %}
+            <li><a href="{{ site.skype }}" target="_blank"><i class="fa fa-skype"></i></a></li>
+            {% endif %}
+
+            {% if site.github != null and site.github != '#' %}
+            <li><a href="{{ site.github }}" target="_blank"><i class="fa fa-github"></i></a></li>
+            {% endif %}
+
+            {% if site.gitlab != null and site.gitlab != '#' %}
+            <li><a href="{{ site.gitlab }}" target="_blank"><i class="fa fa-gitlab"></i></a></li>
+            {% endif %}
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="col-md-8 col-md-push-2 footer-copyright">
+        <div class="footer-text text-center">
+          <p>All Right Reserved!</p>
+        <p><a href="{{ site.footer-copyright-url }}">{{ site.footer-copyright-text }}</a> &copy; {{ site.footer-copyright-year }} Copyright</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Go To Top Button -->
+<a href="#home" class="go-to-top-button"><i class="pe-7s-angle-up"></i></a>
+
+{% if site.google-analytics != null %}
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ site.google-analytics }}', 'auto');
+    ga('send', 'pageview');
+</script>
+{% endif %}

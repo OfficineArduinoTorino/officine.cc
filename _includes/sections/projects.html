@@ -1,0 +1,50 @@
+{% if site.projects != null %}
+
+<!-- Portfolio Section -->
+<section class="site-section portfolio-section next-section-indicator" id="portfolio">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.projects-title }}</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.projects-description }}</p>
+      </div>
+
+    </div>
+
+    <!-- Filter Menu -->
+    <div class="row filter-menu-wrapper">
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div class="row portfolio-grid">
+
+      {% for item in site.projects %}
+
+      <div class="col-md-4 col-sm-6 item visible" style="background-image: url('{{ site.baseurl }}/images/projects/{{ item.image }}')">
+        <div class="item-content">
+          <a href="{{ item.url }}.html">
+            <h3>{{ item.title }}</h3>
+          </a>
+        </div>
+      </div>
+
+      {% endfor %}
+
+      <!-- Overlay Lightbox -->
+      <div id="overlay" class="overlay"></div>
+
+    </div>
+
+  </div>
+</section>
+
+{% endif %}

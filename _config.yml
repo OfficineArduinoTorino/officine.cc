@@ -1,0 +1,300 @@
+#
+# Sera - OnePage Jekyll Template
+# Configuration File
+#
+
+# Information for compile
+exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+sass:
+  sass_dir: _scss
+
+# This is your site title
+title: Officine Innesto
+# Website language
+lang: it-IT
+# Header Title
+header-title: Grafting Technologies
+# Header Tagline
+headter-tagline: Officine Innesto
+
+# NdB: se si mette il nome di una singola immagine lo sfondo rimane statico,
+# altrimenti se è un array diventa un carousel dinamico
+
+# header-image: header-image.jpg
+header-image: ["gif-1.gif", "gif-2.gif", "gif-3.gif", "gif-4.gif", "gif-5.gif", "gif-6.gif"]
+# header-image: nuvole.gif
+
+# NdB: qui ci va "random" per pescare ogni volta una immagine a caso da
+# header-image, o "slide" per fare uno slider automatico che le includa tutte
+header-mode: random
+
+#
+# If your website is placed in a separate folder on your server please modify
+# this with your folder name, by default is empty.
+# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
+# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
+# than scripts can't be loaded corectly.
+# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
+# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
+#
+baseurl:
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: info@officine.cc
+
+# Offer Banner Link
+# Default link is a link to all Sera OnePage products
+# banner-link: https://themeforest.net/collections/6069390-sera
+
+####################################
+######  Global Social Links   ######
+####################################
+# youtube: 'http://example.com'
+# pinterest: 'http://example.com'
+# instagram: 'http://example.com'
+facebook: 'https://www.facebook.com/officineinnesto/'
+twitter: 'https://twitter.com/OfficineArduino'
+# google-plus: 'http://example.com'
+# vimeo: 'http://example.com'
+# skype: 'http://example.com'
+github: 'https://github.com/OfficineArduinoTorino/'
+# gitlab: 'http://example.com'
+
+#########################
+######   Widgets   ######
+#########################
+
+# Google Map JS api
+# This is my api for this template
+key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
+map-text: Officine Innesto
+map-text-location: Turin, Italy
+map-lat: 45.0502864
+map-lng: 7.6684212,18.5
+
+# Google Analytics
+# NdB: decommentare ed immettere qui il codice identificativo per Analytics
+# google-analytics: UA-12345678
+
+# Enter your Mailchimp User ID and Campaign ID
+# @TODO: Add in a link for where to find these
+mailchimp:
+  user-id: REPLACEME
+  list-id: REPLACEME
+
+####
+#
+# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
+#
+# Below are each section from the website in order from top to bottom
+# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
+#
+####
+
+#####################################
+#############   About   #############
+#####################################
+about-title: Welcome to Officine Innesto
+about-description: Officine Innesto is an innovative company that deals with design and technology. We connect the physical with the digital world. We deal with education, workshops and physical prototyping.
+
+
+#####################################
+#############  Features  ############
+#####################################
+
+# NdB: commentare via tutta questa parte se non si vuole avere l'elenco delle
+# "features" in homepage
+
+features-title: Features
+features-description: We work as consultancy, with public and private institutions, developing projects in which technology is the main center. We develop prototypes, training courses, events related to the world of technology and design.
+
+#
+# Features
+#
+features:
+
+# Feature
+- title: PHYSICAL COMPUTING AND FAST PROTOTYPING
+  description: Using open source hardware and software and rapid prototyping machines we help you making your ideas happen
+  icon: presentation.svg
+
+# Feature
+- title: WORKSHOPS AND COURSES
+  description: We want to share our knowledge and for this we organize workshops and courses on the topics we deal with.
+  icon: printer.svg
+
+# Feature
+- title: R&D AND CONSULTANCY
+  description: We research carefully and develop the best solutions based on your requirements
+  icon: rnd.svg
+
+
+#####################################
+############  Projects  #############
+#####################################
+
+projects-title: Projects
+projects-description: We have been investing on different topics, around the conversation between man and machine. Many different landscapes in the background, such as the home environment, the working place, the prototyping/production domain, and STEM/STEAM education.
+
+#####################################
+##########  Core Features  ##########
+#####################################
+# core-title: Core Features
+# core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+
+#
+# Core Features Left
+#
+# core-features-left:
+
+# Feature
+# - name: Creative
+#   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#   icon: pe-7s-light
+
+# Feature
+# - name: Minimalism
+#   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#   icon: pe-7s-drop
+
+# Feature
+# - name: Clean Coding
+#   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#   icon: pe-7s-coffee
+
+# Feature
+# - name: Friendly
+#   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#   icon: pe-7s-smile
+
+#
+# Core Features Right
+#
+# core-features-right:
+
+# Feature
+# - name: Branding
+#  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#  icon: pe-7s-wine
+
+# Feature
+#- name: Web Design
+#  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#  icon: pe-7s-monitor
+
+# Feature
+#- name: Graphic Design
+#  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#  icon: pe-7s-crop
+
+# Feature
+#- name: Photography
+#  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#  icon: pe-7s-camera
+
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Our Blog...
+blog-description: As you can understand Offcine Innesto is a containter of many different things, the horyzontal and bottom-up community of Fablab Torino or the R&D experimental Home of Casa Jasmina, the agro-educational tech-savvy educational experience of Ruralhack (shared with pals @RuralHub) or the STEAM formats of FablabForKids. All of this site / experiences have their very own blogs and social. Not expect much from our new-born blog, most of the time put apart by other (stronger?) needs. That is, the shoemaker's children go barefoot
+# feeds-title: ... and Friends
+# feeds-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+comments-enable: true
+comments-identification: officine-cc
+
+# feeds:
+# - name: Fab Lab Torino
+#   url: http://fablabtorino.org/feed/
+#   defaultphoto: /images/feeds/fablabtorino_logo.png
+
+#####################################
+############### Team ################
+#####################################
+
+# NdB: commentare via tutta questa parte se non si vuole avere l'elenco del team
+
+team-title: Meet Our Team
+team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+
+#
+# Team Members
+#
+# NdB:
+# per non usare un riferimento social, eliminare la riga o lasciare come valore "#"
+#
+team:
+
+- name: Davide Gomba
+  tagline: CEO, maker, story-teller
+  bio: Dreamer, Futurologist, Video+Maker, blogged @arduino and maker products scouter
+  avatar: avatar-01.jpg
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+- name: James Young
+  tagline: Developer
+  bio: Questo testo appare nei blog posts assegnati a questa persona
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: 'http://twitter.com/Test'
+  google-plus: '#'
+  vimeo: '#'
+
+- name: Johnatan Doe
+  tagline: Hacker
+  bio: Questo testo appare nei blog posts assegnati a questa persona
+  avatar: avatar-04.jpg
+  youtube: 'http://youtube.com/Test'
+  pinterest: 'http://pinterest.com/Test'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: 'http://vimeo.com/Test'
+
+- name: Ecaterina Doe
+  tagline: Support Expert
+  bio: Questo testo appare nei blog posts assegnati a questa persona
+  avatar: avatar-03.jpg
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: 'http://vimeo.com/Test'
+
+#####################################
+############   Contact   ############
+#####################################
+contact-title: Contact Us
+contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: Officine Innesto SRL via A. da Montefeltro 2, 10134 Torino P.IVA/CF. IT10631880019
+footer-copyright-text: Gleesik&trade;
+footer-copyright-url: http://gleesik.ro/
+footer-copyright-year: 2016
+
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name

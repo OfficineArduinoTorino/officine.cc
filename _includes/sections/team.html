@@ -1,0 +1,96 @@
+<!-- Team Section -->
+
+{% if site.team != null %}
+
+<section class="site-section team-section section-focus" id="team">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.team-title }}</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.team-description }}</p>
+      </div>
+
+    </div>
+
+    <!-- Team Members -->
+    <div class="row team-members-container">
+
+      {% for member in site.team %}
+
+      <!-- Member -->
+      <div class="col-md-3 col-md-push-0 col-sm-6 col-sm-push-0 col-xs-6 col-xs-push-0">
+        <div class="team-member">
+          <div class="img-wrapper">
+            {% if member.avatar != null %}
+            <img src="{{ site.baseurl }}/images/avatars/{{ member.avatar }}" alt="{{ member.name }}">
+            {% else %}
+            <img src="{{ site.baseurl }}/images/avatars/undefined.png" alt="{{ member.name }}">
+            {% endif %}
+          </div>
+          <div class="team-member-content">
+            <h3 class="name">{{ member.name }}</h3>
+            <h4 class="tagline">{{ member.tagline }}</h4>
+            <div class="social-icons">
+              <ul class="icons">
+                {% if member.youtube != null and member.youtube != '#' %}
+                <li><a href="{{ member.youtube }}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                {% endif %}
+
+                {% if member.pinterest != null and member.pinterest != '#' %}
+                <li><a href="{{ member.pinterest }}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                {% endif %}
+
+                {% if member.instagram != null and member.instagram != '#' %}
+                <li><a href="{{ member.instagram }}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                {% endif %}
+
+                {% if member.facebook != null and member.facebook != '#' %}
+                <li><a href="{{ member.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                {% endif %}
+
+                {% if member.twitter != null and member.twitter != '#' %}
+                <li><a href="{{ member.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                {% endif %}
+
+                {% if member.google-plus != null and member.google-plus != '#' %}
+                <li><a href="{{ member.google-plus }}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                {% endif %}
+
+                {% if member.vimeo != null and member.vimeo != '#' %}
+                <li><a href="{{ member.vimeo }}" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+                {% endif %}
+
+                {% if member.skype != null and member.skype != '#' %}
+                <li><a href="{{ member.skype }}" target="_blank"><i class="fa fa-skype"></i></a></li>
+                {% endif %}
+
+                {% if member.github != null and member.github != '#' %}
+                <li><a href="{{ member.github }}" target="_blank"><i class="fa fa-github"></i></a></li>
+                {% endif %}
+
+                {% if member.gitlab != null and member.gitlab != '#' %}
+                <li><a href="{{ member.gitlab }}" target="_blank"><i class="fa fa-gitlab"></i></a></li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</section>
+
+{% endif %}

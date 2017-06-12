@@ -1,0 +1,73 @@
+<!-- Blog Section -->
+<section class="site-section blog-section" id="blog">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.blog-title }}</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.blog-description }}</p>
+      </div>
+
+    </div>
+
+    <!-- Blog Articles Container -->
+    <div class="row blog-articles-container">
+
+      <!-- Jekyll LOOP -->
+      {% for post in site.posts limit:3 %}
+
+        <!-- Blog Article -->
+        {% include sections/blogcell.html %}
+
+      {% endfor %}
+      <!-- /LOOP-->
+
+    </div>
+
+    <!-- View All Posts CTA -->
+    <div class="row view-posts text-center">
+      <hr class="normal">
+      <a href="blog.html" class="button-cta button-focus col-md-3 col-sm-5 col-xs-8">View all posts</a>
+    </div>
+
+  </div>
+</section>
+
+{% if site.feeds %}
+<section class="site-section blog-section" id="blog2">
+  <div class="container">
+    <!-- Section Heading -->
+    <div class="row">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.feeds-title }}</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.feeds-description }}</p>
+      </div>
+    </div>
+
+    <div class="row blog-articles-container">
+      {% for feed in site.feeds %}
+        <div class="external-feed" data-external-url="{{ feed.url }}" data-default-image="{{ feed.defaultphoto }}"></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<div class="hide" id="template">
+  {% include sections/blogcell.html %}
+</div>
+{% endif %}
