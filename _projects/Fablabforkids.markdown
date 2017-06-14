@@ -1,7 +1,8 @@
 ---
 layout: project
 title: FablabForKids
-image: fablab.png
+image: fblbk4.jpg
+external_url: http://fablabforkids.it/
 ---
 
 
@@ -15,7 +16,9 @@ Third, falling you learn.  A mistake is good because it means that you've taken 
 Fourth, the formulas only at the end. At the Fablab for Kids labs once you've reached the goal then you can understand the formula, the abstract principle, in fact, will help you to simplify and structure what you learned.
 
 <div class="photo-carousel">
-    <img src="/images/blog/img-01.jpg">
-    <img src="/images/blog/img-02.jpg">
-    <img src="/images/blog/img-03.jpg">
+    <img src="/images/projects/fblbk1.jpg">
+    <img src="/images/projects/fblbk2.jpg">
+    <img src="/images/projects/fblbk3.jpg">
+    <img src="/images/projects/fblbk4.jpg">
+    <img src="/images/projects/fblbk5.jpg">
 </div>

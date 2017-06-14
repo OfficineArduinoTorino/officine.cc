@@ -24,9 +24,7 @@ header-title: Grafting Technologies
 # Header Tagline
 headter-tagline: Officine Innesto
 
-# NdB: se si mette il nome di una singola immagine lo sfondo rimane statico,
-# altrimenti se è un array diventa un carousel dinamico
-
+# NdB: se si mette il nome di una singola immagine lo sfondo rimane statico
 # header-image: header-image.jpg
 header-image: ["gif-1.gif", "gif-2.gif", "gif-3.gif", "gif-4.gif", "gif-5.gif", "gif-6.gif"]
 # header-image: nuvole.gif
@@ -225,7 +223,7 @@ comments-identification: officine-cc
 # NdB: commentare via tutta questa parte se non si vuole avere l'elenco del team
 
 team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+team-description: A perfect blend of creativity and technology with a team of designers, technologists and makers.
 
 #
 # Team Members
@@ -238,7 +236,7 @@ team:
 - name: Davide Gomba
   tagline: CEO, maker, story-teller
   bio: Dreamer, Futurologist, Video+Maker, blogged @arduino and maker products scouter
-  avatar: avatar-01.jpg
+  avatar: davide.jpg
   youtube: '#'
   pinterest: '#'
   facebook: '#'
@@ -246,9 +244,10 @@ team:
   google-plus: '#'
   vimeo: '#'
 
-- name: James Young
-  tagline: Developer
-  bio: Questo testo appare nei blog posts assegnati a questa persona
+- name: Alessandro Squatrito
+  tagline: senior designer
+  bio:
+  avatar: alessandro.jpg
   youtube: '#'
   pinterest: '#'
   facebook: '#'
@@ -256,10 +255,10 @@ team:
   google-plus: '#'
   vimeo: '#'
 
-- name: Johnatan Doe
-  tagline: Hacker
-  bio: Questo testo appare nei blog posts assegnati a questa persona
-  avatar: avatar-04.jpg
+- name: Tommaso Laterza
+  tagline: junior designer and technologist
+  bio:
+  avatar: TommasoLOL.jpg
   youtube: 'http://youtube.com/Test'
   pinterest: 'http://pinterest.com/Test'
   facebook: '#'
@@ -267,10 +266,32 @@ team:
   google-plus: '#'
   vimeo: 'http://vimeo.com/Test'
 
-- name: Ecaterina Doe
-  tagline: Support Expert
-  bio: Questo testo appare nei blog posts assegnati a questa persona
-  avatar: avatar-03.jpg
+- name: Cristina Bignante
+  tagline: junior social media manager
+  bio:
+  avatar: bignante.jpg
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: 'http://vimeo.com/Test'
+
+- name: Elena Gabrielli
+  tagline: administration and support
+  bio:
+  avatar: elena.jpg
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: 'http://vimeo.com/Test'
+
+- name: Silvia Galfo
+  tagline: junior designer and prototyper
+  bio:
+  avatar: silvia .jpg
   youtube: '#'
   pinterest: '#'
   facebook: '#'

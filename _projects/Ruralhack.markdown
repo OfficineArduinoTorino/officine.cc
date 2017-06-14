@@ -1,7 +1,8 @@
 ---
 layout: project
 title: Rural Hack
-image: fablab.png
+image: rural 6.jpg
+external_url: http://www.ruralhack.org/
 ---
 RuralHack is a research / action project that investigates both the cultural and technological aspects of the relationship between Open Hardware and Agriculture.
 
@@ -12,7 +13,10 @@ Rural hack is organizing workshops around Italy in collaboration with Officine I
 
 
 <div class="photo-carousel">
-    <img src="/images/blog/img-01.jpg">
-    <img src="/images/blog/img-02.jpg">
-    <img src="/images/blog/img-03.jpg">
+    <img src="/images/projects/ rural 1.jpg">
+    <img src="/images/projects/rural 2.jpg">
+    <img src="/images/projects/rural 3.jpg">
+    <img src="/images/projects/rural 4.jpg">
+    <img src="/images/projects/rural 5.jpg">
+    <img src="/images/projects/rural 6.jpg">
 </div>
