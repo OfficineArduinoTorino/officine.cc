@@ -1,7 +1,7 @@
 ---
 layout: project
 title: DigifabTuring
-image: 41 copia.jpg
+image: digifab 1.jpg
 external_url: https://digifabturing.github.io/LandingPage/
 ---
 Digifacturing is the research project on new production processes, digital crafts, 3D printing and robotics.
@@ -9,9 +9,11 @@ Digifacturing rises from a collaboration between several partners: Fablab Torino
 The multidisciplinary team that will actually work with the robot will be composed by several professionals: some with a “maker” background, others more technical from the fields of electronics and computational design. Now a lot of work is waiting for us to start; several are the experiments to test and projects to develop and we cannot see the time projects will be finally real.
 
 <div class="photo-carousel">
-    <img src="/images/projects/41.jpg">
-    <img src="/images/projects/34.jpg">
-    <img src="/images/projects/13.jpg">
-    <img src="/images/projects/38.jpg">
-    <img src="/images/projects/14 (1).jpg">
+    <img src="/images/projects/digifab 1.jpg">
+    <img src="/images/projects/digifab 2.jpg">
+    <img src="/images/projects/digifab 3.jpg">
+    <img src="/images/projects/digifab 4.jpg">
+    <img src="/images/projects/difigab 5.jpg">
+    <img src="/images/projects/digifab 6.jpg">
+    <img src="/images/projects/digifab 7.jpg">
 </div>
