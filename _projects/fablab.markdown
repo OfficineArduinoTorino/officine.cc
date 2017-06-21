@@ -1,7 +1,7 @@
 ---
 layout: project
-title: FabLabTorino
-image: fablab.png
+title: fabLabTorino
+image: fab3.jpg
 external_url: http://casajasmina.cc/
 ---
 
@@ -11,3 +11,15 @@ Fablab often works as a hub of Skills, where people who attend it find among oth
 Today, Fablab Torino continues to use Officine Innesto's support.
 The founding members of FabLab Torino are:
 Massimo Banzi; Riccardo Luna; Paola Zini; Alex Ferraris; Andrea Graziano; Cesare Griffa; Franco Magni; Giorgio Olivero; Andrea Patrucco; Lorenzo Romagnoli; Gualtiero Tumolo; David Mushroom; Enrico Bassi.
+
+
+<div class="photo-carousel">
+    <img src="/images/projects/fab1.jpg">
+    <img src="/images/projects/fab2.jpg">
+    <img src="/images/projects/fab3.jpg">
+    <img src="/images/projects/fab4.jpg">
+    <img src="/images/projects/fab5.jpg">
+    <img src="/images/projects/fab6.jpg">
+    <img src="/images/projects/fab7.jpg">
+    <img src="/images/projects/fab8.jpg">
+</div>
