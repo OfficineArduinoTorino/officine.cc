@@ -4,7 +4,7 @@ title: Rural Hack
 image: rural 6.jpg
 external_url: http://www.ruralhack.org/
 ---
-RuralHack is a research / action project that investigates both the cultural and technological aspects of the relationship between Open Hardware and Agriculture.
+[RuralHack](http://www.ruralhack.org/) is a research / action project that investigates both the cultural and technological aspects of the relationship between Open Hardware and Agriculture.
 
 The aim is to facilitate access to state-of-the-art technology and cost-effective precursor agriculture to enable farmers to create infrastructures and products.
 
