@@ -118,6 +118,7 @@ section.portfolio-section {
         bottom: 0;
         background: transparentize($quaternary, 0.2);
 
+
         a {
           color: $white;
           position: absolute;
@@ -136,11 +137,17 @@ section.portfolio-section {
 
         h3, h4 {
           text-transform: uppercase;
+          // added by vongomben
+          text-align: center;
+
         }
 
         h3 {
           font-size: 2rem;
           margin-bottom: 10px;
+          // added by vongomben
+          text-align: center;
+
         }
 
         // Links
