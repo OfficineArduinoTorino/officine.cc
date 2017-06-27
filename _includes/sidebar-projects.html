@@ -1,7 +1,45 @@
 <!-- Site Sidebar -->
 <aside class="site-sidebar">
 
-<!-- https://github.com/OfficineArduinoTorino/officine.cc/issues/5 -->
+  <div class="widget">
+    <header class="widget-header">
+      <h4 class="widget-title">Facebook</h4>
+    </header>
+
+    {% if page.fbpage != null %}
+      {% assign facebook_link = page.fbpage %}
+    {% else %}
+      {% assign facebook_link = site.url | append: page.url %}
+    {% endif %}
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="fb-like" 
+      data-href="{{ facebook_link }}" 
+      data-layout="standard" 
+      data-action="like" 
+      data-width="200px" 
+      data-show-faces="true">
+    </div>
+  </div>
+  
+  {% if page.twitter != null %}
+    <div class="widget about-widget">
+      <header class="widget-header">
+        <h4 class="widget-title">Twitter</h4>
+      </header>
+
+      <a class="twitter-timeline" href="https://twitter.com/{{ page.twitter }}" data-tweet-limit="5">Tweets by {{ page.twitter }}</a>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  {% endif %}
 
   {% include widgets/about-widget.html %}
 

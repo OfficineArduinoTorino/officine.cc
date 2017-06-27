@@ -3,6 +3,8 @@ layout: project
 title: Casa Jasmina
 image: 41 copia.jpg
 external_url: http://casajasmina.cc/
+fbpage: https://www.facebook.com/casajasmina.to/
+twitter: casaJasmina
 ---
 
 Casa Jasmina is an independent project in the business space of domestic electronic networking, or, "the Internet of Things in the Home." Our goal is to integrate traditional Italian skills in furniture and interior design with emergent skills in open-source electronics. Started as a two year pilot project of Arduino.cc, now Casa Jasmina is able to share and present a model of a sustainable and open source controlling system with a special vision on user experience and interfaces.
