@@ -240,7 +240,7 @@ team:
   youtube: '#'
   pinterest: '#'
   facebook: '#'
-  twitter: '#'
+  twitter: 'https://twitter.com/VonGomben'
   google-plus: '#'
   vimeo: '#'
 
@@ -251,7 +251,7 @@ team:
   youtube: '#'
   pinterest: '#'
   facebook: '#'
-  twitter: 'http://twitter.com/Test'
+  twitter: '#'
   google-plus: '#'
   vimeo: '#'
 
@@ -259,12 +259,12 @@ team:
   tagline: junior designer and technologist
   bio:
   avatar: TommasoLOL.jpg
-  youtube: 'http://youtube.com/Test'
-  pinterest: 'http://pinterest.com/Test'
+  youtube: '#'
+  pinterest: '#'
   facebook: '#'
   twitter: '#'
   google-plus: '#'
-  vimeo: 'http://vimeo.com/Test'
+  vimeo: '#'
 
 - name: Cristina Bignante
   tagline: junior social media manager
@@ -275,7 +275,7 @@ team:
   facebook: '#'
   twitter: '#'
   google-plus: '#'
-  vimeo: 'http://vimeo.com/Test'
+  vimeo: '#'
 
 - name: Elena Gabrielli
   tagline: administration and support
@@ -286,7 +286,7 @@ team:
   facebook: '#'
   twitter: '#'
   google-plus: '#'
-  vimeo: 'http://vimeo.com/Test'
+  vimeo: '#'
 
 - name: Silvia Galfo
   tagline: junior designer and prototyper
@@ -297,7 +297,7 @@ team:
   facebook: '#'
   twitter: '#'
   google-plus: '#'
-  vimeo: 'http://vimeo.com/Test'
+  vimeo: '#'
 
 #####################################
 ############   Contact   ############
@@ -310,8 +310,8 @@ contact-description: We're always happy to meet new friends. Start by telling us
 #############   Footer   ############
 #####################################
 footer-description: Officine Innesto SRL via A. da Montefeltro 2, 10134 Torino P.IVA/CF. IT10631880019
-footer-copyright-text: Gleesik&trade;
-footer-copyright-url: http://gleesik.ro/
+footer-copyright-text: officine&trade;
+footer-copyright-url: officine.cc
 footer-copyright-year: 2016
 
 
