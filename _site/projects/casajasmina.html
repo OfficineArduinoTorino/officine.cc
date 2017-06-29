@@ -129,8 +129,45 @@
           <!-- Sidebar -->
           <div class="col-md-4 hidden-xs hidden-sm">
 
-            <!-- Site Sidebar -->
+            
+              <!-- Site Sidebar -->
 <aside class="site-sidebar">
+
+  <div class="widget">
+    <header class="widget-header">
+      <h4 class="widget-title">Facebook</h4>
+    </header>
+
+    
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="fb-like" 
+      data-href="https://www.facebook.com/casajasmina.to/" 
+      data-layout="standard" 
+      data-action="like" 
+      data-width="200px" 
+      data-show-faces="true">
+    </div>
+  </div>
+  
+  
+    <div class="widget about-widget">
+      <header class="widget-header">
+        <h4 class="widget-title">Twitter</h4>
+      </header>
+
+      <a class="twitter-timeline" href="https://twitter.com/casaJasmina" data-tweet-limit="5">Tweets by casaJasmina</a>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  
 
   
 
@@ -210,6 +247,7 @@
 
 </aside>
 
+            
 
           </div>
 
