@@ -19,7 +19,14 @@ Fablab often works as a hub of Skills, where people who attend it find among oth
 
 Today, Fablab Torino continues to use Officine Innesto's support.
 
-The founding members of FabLab Torino Associacion are:
+Fablab Torino Association Board of Directors is composed by:  
+
+**President**: Giovanni Bindi  
+**Advisors:** Marco Cassino, Riccardo Torrazza, Fabrizio Alessio, Gianfranco Caputo, Davide Gomba.
+
+The founding members of FabLab Torino Association are:  
+
+
 * Massimo Banzi
 * Riccardo Luna
 * Paola Zini
@@ -32,9 +39,12 @@ The founding members of FabLab Torino Associacion are:
 * Lorenzo Romagnoli
 * Gualtiero Tumolo
 * Davide Gomba
-* Enrico Bassi
+* Enrico Bassi  
 
 
+
+
+<br>
 <div class="photo-carousel">
     <img src="/images/projects/fab1.jpg">
     <img src="/images/projects/fab2.jpg">
