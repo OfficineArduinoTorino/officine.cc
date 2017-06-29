@@ -2,7 +2,7 @@
 layout: project
 title: fabLabTorino
 image: fab3.jpg
-external_url: http://casajasmina.cc/
+external_url: http://fablabtorino.org/
 fbpage: https://www.facebook.com/fablabtorino/
 twitter: Fablabtorino
 ---

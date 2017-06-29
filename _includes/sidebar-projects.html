@@ -1,5 +1,6 @@
 <!-- Site Sidebar -->
 <aside class="site-sidebar">
+  {% include widgets/about-widget.html %}
 
   <div class="widget">
     <header class="widget-header">
@@ -21,15 +22,15 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    <div class="fb-like" 
-      data-href="{{ facebook_link }}" 
-      data-layout="standard" 
-      data-action="like" 
-      data-width="200px" 
+    <div class="fb-like"
+      data-href="{{ facebook_link }}"
+      data-layout="standard"
+      data-action="like"
+      data-width="300px"
       data-show-faces="true">
     </div>
   </div>
-  
+
   {% if page.twitter != null %}
     <div class="widget about-widget">
       <header class="widget-header">
@@ -41,10 +42,8 @@
     </div>
   {% endif %}
 
-  {% include widgets/about-widget.html %}
 
-  {% include widgets/categories-widget.html %}
 
-  {% include widgets/tags-cloud-widget.html %}
+
 
 </aside>
