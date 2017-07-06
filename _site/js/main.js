@@ -196,13 +196,27 @@
         singleItem: true
     });
 
+    function async_load_header() {
+        var async_header_bg = $('input:hidden[name=header-image-bg]');
+        if (async_header_bg.length != 0) {
+            var image = $('.parallax-wrapper .cover img');
+            var downloadingImage = new Image();
+            downloadingImage.onload = function(){
+                image.attr('src', this.src);
+            };
+            downloadingImage.src = async_header_bg.val();
+        }
+    }
+
     if ($(".header-carousel").length != 0) {
         var mode = $('input:hidden[name=header-mode]').val();
         if (mode == 'random') {
-            var length = $(".header-carousel img").length;
+            var options = $(".header-carousel input:hidden[name=available-image-bg]");
+            var length = options.length;
             var index = Math.floor(Math.random() * length) + 1;
-            console.log(length + '  ' + index);
-            $(".header-carousel img").not(':nth-child(' + index + ')').remove();
+            var selection = $(".header-carousel input:hidden[name=available-image-bg]:nth-child(" + index + ")").val();
+            $('input:hidden[name=header-image-bg]').val(selection);
+            async_load_header();
         }
         else {
             $(".header-carousel").owlCarousel({
@@ -215,6 +229,9 @@
                 autoplayHoverPause: false
             });
         }
+    }
+    else {
+        async_load_header();
     }
 
     /**

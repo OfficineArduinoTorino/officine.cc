@@ -7,12 +7,22 @@
       {% if site.header-image.first %}
         <input type="hidden" name="header-mode" value="{{ site.header-mode }}">
         <div class="header-carousel">
-          {% for image in site.header-image %}
-            <img src="{{ site.baseurl }}/images/{{ image }}" alt="{{ site.name }}" />
-          {% endfor %}
+          {% if site.header-mode == 'random' %}
+            {% for image in site.header-image %}
+              <input type="hidden" name="available-image-bg" value="{{ site.baseurl }}/images/{{ image }}">
+            {% endfor %}
+
+            <input type="hidden" name="header-image-bg" value="pending">
+            <img src="" alt="{{ site.name }}" />
+          {% else %}
+            {% for image in site.header-image %}
+              <img src="{{ site.baseurl }}/images/{{ image }}" alt="{{ site.name }}" />
+            {% endfor %}
+          {% endif %}
         </div>
       {% else %}
-        <img src="{{ site.baseurl }}/images/{{ site.header-image }}" alt="{{ site.name }}" />
+        <input type="hidden" name="header-image-bg" value="{{ site.baseurl }}/images/{{ site.header-image }}">
+        <img src="" alt="{{ site.name }}" />
       {% endif %}
     </div>
   </div>
