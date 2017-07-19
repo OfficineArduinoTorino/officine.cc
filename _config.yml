@@ -28,6 +28,7 @@ headter-tagline: Officine Innesto
 # header-image: header-image.jpg
 header-image: ["gif-1.gif", "gif-2.gif", "gif-3.gif", "gif-4.gif", "gif-5.gif", "gif-6.gif"]
 # header-image: nuvole.gif
+header-image-placeholder: loading.jpeg
 
 # NdB: qui ci va "random" per pescare ogni volta una immagine a caso da
 # header-image, o "slide" per fare uno slider automatico che le includa tutte

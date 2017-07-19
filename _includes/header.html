@@ -13,7 +13,7 @@
             {% endfor %}
 
             <input type="hidden" name="header-image-bg" value="pending">
-            <img src="" alt="{{ site.name }}" />
+            <img src="{% if site.header-image-placeholder %}{{ site.baseurl }}/images/{{ site.header-image-placeholder }}{% endif %}" alt="{{ site.name }}" />
           {% else %}
             {% for image in site.header-image %}
               <img src="{{ site.baseurl }}/images/{{ image }}" alt="{{ site.name }}" />
