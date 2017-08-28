@@ -300,6 +300,18 @@ team:
   google-plus: '#'
   vimeo: '#'
 
+- name: Giacomo Leonzi
+  tagline: Data Scientist and Maker
+  bio:
+  avatar: giacomo.jpg
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+  linkedin: 'https://www.linkedin.com/in/giacomo-leonzi-8597564a/'
+
 #####################################
 ############   Contact   ############
 #####################################

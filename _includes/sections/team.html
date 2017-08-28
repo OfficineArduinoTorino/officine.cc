@@ -80,6 +80,11 @@
                 {% if member.gitlab != null and member.gitlab != '#' %}
                 <li><a href="{{ member.gitlab }}" target="_blank"><i class="fa fa-gitlab"></i></a></li>
                 {% endif %}
+
+                {% if member.linkedin != null and member.linkedin != '#' %}
+                <li><a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                {% endif %}
+
               </ul>
             </div>
           </div>
