@@ -85,6 +85,9 @@
                 <li><a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 {% endif %}
 
+                {% if member.site != null and member.site != '#' %}
+                <li><a href="{{ member.site }}" target="_blank"><i class="fa fa-home "></i></a></li>
+                {% endif %}
               </ul>
             </div>
           </div>
