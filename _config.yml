@@ -245,10 +245,10 @@ team:
   google-plus: '#'
   vimeo: '#'
 
-- name: Alessandro Squatrito
-  tagline: senior designer
+- name: Pierluigi Vona
+  tagline: Pro Maker, Educator Technologist
   bio:
-  avatar: alessandro.jpg
+  avatar: nic2.jpg
   youtube: '#'
   pinterest: '#'
   facebook: '#'
@@ -256,10 +256,10 @@ team:
   google-plus: '#'
   vimeo: '#'
 
-- name: Tommaso Laterza
-  tagline: junior designer and technologist
+- name: Fabrizio Alessio
+  tagline: Senior Designer
   bio:
-  avatar: TommasoLOL.jpg
+  avatar: fabrizioalessio2.jpg
   youtube: '#'
   pinterest: '#'
   facebook: '#'
@@ -311,6 +311,20 @@ team:
   google-plus: '#'
   vimeo: '#'
   linkedin: 'https://www.linkedin.com/in/giacomo-leonzi-8597564a/'
+  site: 'http://giacomoleonzi.com/'
+
+- name: Niccolò Barcucci
+  tagline: Developer and Maker
+  bio:
+  avatar: nic2.jpg
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+  linkedin: '#'
+  site: '#'
 
 #####################################
 ############   Contact   ############
