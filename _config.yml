@@ -84,7 +84,7 @@ map-lng: 7.6684212,18.5
 
 # Google Analytics
 # NdB: decommentare ed immettere qui il codice identificativo per Analytics
-# google-analytics: UA-12345678
+google-analytics: UA-111316626-1
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
@@ -126,12 +126,12 @@ features:
 # Feature
 - title: PHYSICAL COMPUTING AND FAST PROTOTYPING
   description: Using open source hardware and software and rapid prototyping machines we help you making your ideas happen
-  icon: presentation.svg
+  icon: printer.svg
 
 # Feature
 - title: WORKSHOPS AND COURSES
   description: We want to share our knowledge and for this we organize workshops and courses on the topics we deal with.
-  icon: printer.svg
+  icon: presentation.svg
 
 # Feature
 - title: R&D AND CONSULTANCY
@@ -248,7 +248,7 @@ team:
 - name: Pierluigi Vona
   tagline: Pro Maker, Educator Technologist
   bio:
-  avatar: nic2.jpg
+  avatar: pier.png
   youtube: '#'
   pinterest: '#'
   facebook: '#'
