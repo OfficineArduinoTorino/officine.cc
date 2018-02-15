@@ -5,7 +5,7 @@ tagline: Single Page
 date: 2018-02-15 17:00
 categories: [Events]
 tags: [Fablab Torino, Event, Workshop]
-image: img-01.jpg
+image: File_000(3).jpeg
 ---
 
 It seems we’re now old enough to count our age with both hands. Officine and [Fablab Torino](http://fablabtorino.org) are celebrating **six years** since their opening in February 2012.  
