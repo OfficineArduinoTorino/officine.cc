@@ -4714,7 +4714,8 @@ header.site-header {
     header.site-header .site-navigation-bar .navigation-bar nav.nav-menu {
       position: relative;
       display: block;
-      float: right; }
+      float: right;
+      font-size: 2.2em; }
       header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li {
         float: left;
         margin-right: 30px; }
