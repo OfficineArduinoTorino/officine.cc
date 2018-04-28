@@ -2,9 +2,10 @@
 layout: project
 title: FablabForKids
 image: fblbk4.jpg
+ref: kids
 external_url: http://fablabforkids.it/
 fbpage: https://www.facebook.com/fablabforkids/
-
+lang: en
 ---
 
 
