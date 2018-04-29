@@ -110,10 +110,13 @@ mailchimp:
 #####################################
 about-title:
   en: Welcome to Officine Innesto
-  it: Benvenuta/o sul sito di Officine¹ Innesto²
+  it: Interazione e Connettività alla portata di tutti
 about-description:
   en: Officine Innesto is an innovative company that deals with design and technology. We connect the physical with the digital world. We deal with education, workshops and physical prototyping.
-  it: Officine Innesto è un'azienda che sperimenta in campo tecnologico e del Design. Realizziamo oggetti fisici con cui interagiamo in modo digitale. Offriamo consulenze, percorsi educativi, workshop e servizi di prototipazione rapida.
+  it: Quando devi far comunicare un oggetto con il mondo esterno, o hai bisogno di controllarlo da remoto; quando hai un'idea in mente e vuoi trasformarla in prodotto. Gente che apprezza i problemi e trova soluzioni.
+
+
+    # Officine Innesto è un'azienda che sperimenta in campo tecnologico e del Design. Realizziamo oggetti fisici con cui interagiamo in modo digitale. Offriamo consulenze, percorsi educativi, workshop e servizi di prototipazione rapida.
 
 
 
@@ -130,7 +133,7 @@ features-title:
   it: Cosa Facciamo
 features-description:
   en: We work as consultancy, with public and private institutions, developing projects in which technology is the main center. We develop prototypes, training courses, events related to the world of technology and design.
-  it: Forniamo servizi di consulenza, nei confronti di istituzioni private o con il pubblico, mantenendo centrale la relazione tra utente e tecnologia come focus nello sviluppo dei nostri progetti. Spesso per dare vita ai nostri progetti realizziamo un prototipo o addirittura un prodotto, altre volte é più produttivo scrivere un percorso formativo che permetta a molte persone di raggiungere l’obiettivo preposto.
+  it: Forniamo servizi di consulenza nei confronti di istituzioni private o con la Pubblica Amministrazione, mantenendo centrale la relazione tra utente e tecnologia nella realizzazione di oggetti o servizi per il cliente. Spesso nella ricerca di queste soluzioni inventiamo storytelling e percorsi formativi per arrivare al prodotto finito.
 
 #
 # Features
@@ -143,7 +146,7 @@ features:
    it: PHYSICAL COMPUTING E PROTOTIPAZIONE RAPIDA
   description:
    en: Using open source hardware and software and rapid prototyping machines we help you making your ideas happen
-   it: Realizziamo le vostre idee di progetto prediligendo hardware e software open source e macchine per la prototipazione rapida
+   it: Realizziamo le vostre idee di progetto con prototipazione rapida e codici aperti
   icon: printer.svg
 
 # Feature
@@ -161,7 +164,7 @@ features:
    it: R&D E CONSULENZA
   description:
    en: We research carefully and develop the best solutions based on your requirements
-   it: Attraverso una fitta rete di relazioni e conoscenze maturata negli anni siamo in grado di fornire al nostro cliente soluzioni a richieste specifiche
+   it: Forniamo ricerche verticali su un soggetto specifico o soluzioni partendo da una esigenza del cliente.
   icon: rnd.svg
 
 
@@ -273,8 +276,8 @@ team-description:
 team:
 
 - name: Davide Gomba
-  tagline: CEO, maker, story-teller
-  bio: Dreamer, Futurologist, Video+Maker, blogged @arduino and maker products scouter
+  tagline: Maker, Storyteller, Educator
+  bio: Dreamer, Futurologist, Video+Maker, blogged @arduino
   avatar: davide.jpg
   youtube: '#'
   pinterest: '#'
