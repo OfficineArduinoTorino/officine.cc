@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Celebrating six years of Officine and Fablab Torino"
+title:  "Festeggiamo sei anni di Officine Innesto e Fablab Torino"
 tagline: Single Page
 ref: compleanno
 date: 2018-02-15 17:00

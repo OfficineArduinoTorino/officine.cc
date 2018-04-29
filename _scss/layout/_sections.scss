@@ -9,7 +9,7 @@
 section.site-section {
   padding: 100px 0;
   background: $section-bg;
-  // z-index: 1;
+//   z-index: 1;
 
   // Section Header
   header.section-header {
@@ -17,7 +17,7 @@ section.site-section {
     h1, h2, h3, h4, h5, h6 {
       font-weight: bold;
       text-transform: uppercase;
-      color: $secondary;  
+      color: $secondary;
     }
 
     hr.normal {
@@ -25,6 +25,32 @@ section.site-section {
       visibility: hidden;
     }
   }
+
+  // Section Content (by davide)
+/*
+  content.section-content {
+
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $secondary;
+    }
+    p {
+      font-weight: bold;
+    }
+
+    hr.normal {
+      margin: 20px 0;
+      visibility: hidden;
+    }
+  }*/
+
+  // altro tentativo
+  /*
+  #paragraph {
+  font-size: 30px;
+  line-height: 50px;
+}*/
 
   // Section Focus
   &.section-focus {

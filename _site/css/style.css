@@ -4460,7 +4460,7 @@ button.button-block,
  **/
 body {
   font-family: "Roboto", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
   letter-spacing: 0.08rem;
   color: #605F5E;
@@ -4714,8 +4714,7 @@ header.site-header {
     header.site-header .site-navigation-bar .navigation-bar nav.nav-menu {
       position: relative;
       display: block;
-      float: right;
-      font-size: 2.0em; }
+      float: right;}
       header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li {
         float: left;
         margin-right: 30px; }
@@ -4997,7 +4996,29 @@ header.site-header {
  **/
 section.site-section {
   padding: 100px 0;
-  background: #fff; }
+  background: #fff;
+  /*
+    content.section-content {
+
+      h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $secondary;
+      }
+      p {
+        font-weight: bold;
+      }
+
+      hr.normal {
+        margin: 20px 0;
+        visibility: hidden;
+      }
+    }*/
+  /*
+  #paragraph {
+  font-size: 30px;
+  line-height: 50px;
+}*/ }
   section.site-section header.section-header h1, section.site-section header.section-header h2, section.site-section header.section-header h3, section.site-section header.section-header h4, section.site-section header.section-header h5, section.site-section header.section-header h6 {
     font-weight: bold;
     text-transform: uppercase;
