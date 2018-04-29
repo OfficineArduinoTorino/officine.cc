@@ -7,13 +7,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.blog-title }}</h2>
+        <h2>{{ site.blog-title[page.lang] }}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.blog-description }}</p>
+        <p>{{ site.blog-description[page.lang] }}</p>
       </div>
 
     </div>
@@ -22,7 +22,8 @@
     <div class="row blog-articles-container">
 
       <!-- Jekyll LOOP -->
-      {% for post in site.posts limit:3 %}
+      {% assign posts=site.posts | where:"lang", page.lang %}
+      {% for post in posts limit:3 %}
 
         <!-- Blog Article -->
         {% include sections/blogcell.html %}
@@ -49,13 +50,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.feeds-title }}</h2>
+        <h2>{{ site.feeds-title[page.lang] }}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.feeds-description }}</p>
+        <p>{{ site.feeds-description[page.lang] }}</p>
       </div>
     </div>
 

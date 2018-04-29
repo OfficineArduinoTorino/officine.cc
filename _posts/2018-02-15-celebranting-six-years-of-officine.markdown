@@ -2,10 +2,12 @@
 layout: post
 title:  "Celebrating six years of Officine and Fablab Torino"
 tagline: Single Page
+ref: compleanno
 date: 2018-02-15 17:00
 categories: [Events]
 tags: [Fablab Torino, Event, Workshop]
 image: pary6 header.png
+lang: en
 ---
 
 It seems we’re now old enough to count our age with both hands. Officine and [Fablab Torino](http://fablabtorino.org) are celebrating **six years** since their opening in February 2012.  

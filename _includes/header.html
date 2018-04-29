@@ -69,7 +69,13 @@
             {% endif %}
 
             <li><a href="#contact">Contacts</a></li>
-          </ul>
+
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+            {% for page in pages %}
+              <li><a href="{{ page.url }}">{{ page.lang }}</a></li>
+            {% endfor %}
+
+            </ul>
         </nav>
 
       </div>

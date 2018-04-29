@@ -9,13 +9,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.projects-title }}</h2>
+        <h2>{{ site.projects-title[page.lang] }}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.projects-description }}</p>
+        <p>{{ site.projects-description[page.lang] }}</p>
       </div>
 
     </div>
@@ -27,7 +27,8 @@
     <!-- Portfolio Grid -->
     <div class="row portfolio-grid">
 
-      {% for item in site.projects %}
+      {% assign projects=site.projects | where:"lang", page.lang %}
+      {% for item in projects %}
 
       <div class="col-md-4 col-sm-6 item visible" style="background-image: url('{{ site.baseurl }}/images/projects/{{ item.image }}')">
         <div class="item-content">

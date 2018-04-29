@@ -1,0 +1,491 @@
+<!DOCTYPE html >
+<html lang="it-IT">
+
+  <!-- Site Head -->
+<head>
+  <meta charset="utf-8" />
+  <title>fabLabTorino</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="/images/favicon.png" title="Favicon" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+  <!-- Importing Styles -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+  <body>
+
+    <!-- Page Loader -->
+    <div id="page-loader" class="page-loader"><span class="load-icon"></span></div>
+
+    <!-- Site Header -->
+<header class="site-header blog-header parallax" id="home" data-scrollax-parent="true">
+
+  <!-- Parallax Header Image -->
+  <div class="parallax-wrapper">
+    <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
+      
+        
+          <img src="/images/projects/fab3.jpg" alt="fabLabTorino">
+        
+      
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- Site Navigation Bar -->
+    <div class="row site-navigation-bar parent">
+
+      <!-- Logo -->
+      <div class="col-sm-2 col-xs-4 logo child-center-v">
+        <a href="/index.html"><img src="/images/logo.svg" width="100" alt="Officine Innesto | Grafting Technologies"></a>
+      </div>
+
+      <!-- Toggle Mobile Menu -->
+      <div class="col-xs-8 toggle-menu child-center-v">
+
+        <!-- Burger -->
+        <div class="navTrigger">
+          <i></i><i></i><i></i>
+        </div>
+
+      </div>
+
+      <!-- Navigation Bar -->
+      <div class="col-sm-10 col-xs-12 navigation-bar child-center-v">
+
+        <!-- Navigation Menu -->
+        <nav id="navMenu" class="nav-menu">
+          <ul class="menu">
+            <li><a href="/index.html#home">Home</a></li>
+            <li><a href="/index.html#about">About</a></li>
+
+            
+            <li class="current-menu-item"><a href="/index.html#portfolio">Projects</a></li>
+            
+
+            
+            <li class=""><a href="/index.html#blog">Blog</a></li>
+            
+
+            
+            <li><a href="/index.html#team">Team</a></li>
+            
+
+            <li><a href="/index.html#contact">Contact</a></li>
+
+            
+            
+            
+            
+            
+            
+              
+                <li><a href="/projects/fablab.html">en</a></li>
+              
+            
+              
+            
+
+          </ul>
+        </nav>
+
+      </div>
+
+    </div>
+
+    <!-- Site Header Banner -->
+    <div class="row header-banner parent" data-scrollax="properties: { 'translateY': '48%', 'opacity': '1.4' }">
+
+      <div class="heading-content text-center child-center-v">
+
+        <!-- Heading Title -->
+        <div class="row heading-title">
+          <h2></h2>
+          <hr class="small">
+          <h1 class="thin">fabLabTorino</h1>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Arrow Down -->
+    <div class="row arrow-down-section" data-scrollax="properties: { 'opacity': '0.6' }">
+        <!--
+    Questo definisce il widget della freccina per scrollare verso il basso.
+    L'importante è che ci sia un link che punta a #start e con classe .arrow-down,
+    per agganciarlo alle callback Javascript. Può essere stilato come meglio si
+    preferisce
+-->
+
+<div class="wrapper-arrow child-center">
+  <a href="#start" class="arrow-down">
+    <i class="pe-7s-angle-down"></i>
+  </a>
+</div>
+
+    </div>
+
+  </div>
+</header>
+
+
+    <!-- Page Section -->
+    <section class="site-section blog-section page-layout" id="start">
+      <div class="container">
+
+        <!-- Page Layout -->
+        <div class="row">
+
+          <!-- Sidebar -->
+          <div class="col-md-4 hidden-xs hidden-sm">
+
+            
+              <!-- Site Sidebar -->
+<aside class="site-sidebar">
+  
+
+
+
+<!-- About Widget -->
+<div class="widget about-widget">
+
+  <!-- Widget Header -->
+  <header class="widget-header">
+    <h4 class="widget-title">About Me</h4>
+  </header>
+
+  <!-- Widget Content -->
+  <div class="widget-content">
+    <div class="row">
+      <div class="col-sm-6">
+        
+        <img src="/images/avatars/davide.jpg" alt="Davide Gomba">
+        
+
+        <div class="social-icons">
+          <ul class="icons global-text-color-icons">
+            
+
+            
+
+            
+
+            
+            <li><a href="https://twitter.com/VonGomben" target="_blank"><i class="fi flaticon-twitter"></i></a></li>
+            
+
+            
+
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="info clearfix">
+          <h4 class="author-name">Davide Gomba</h4>
+          <h5 class="author-info">CEO, maker, story-teller</h5>
+          <hr class="medium">
+        </div>
+        <p class="author-text">Dreamer, Futurologist, Video+Maker, blogged @arduino and maker products scouter</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<div class="widget about-widget">
+  <header class="widget-header">
+    <h4 class="widget-title">Visit the Website</h4>
+  </header>
+
+  <div class="widget-content">
+    <a href="http://fablabtorino.org/">http://fablabtorino.org/</a>
+  </div>
+</div>
+
+
+
+  <div class="widget">
+    <header class="widget-header">
+      <h4 class="widget-title">Facebook</h4>
+    </header>
+
+    
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="fb-like"
+      data-href="https://www.facebook.com/fablabtorino/"
+      data-layout="standard"
+      data-action="like"
+      data-width="300px"
+      data-show-faces="true">
+    </div>
+  </div>
+
+  
+    <div class="widget about-widget">
+      <header class="widget-header">
+        <h4 class="widget-title">Twitter</h4>
+      </header>
+
+      <a class="twitter-timeline" href="https://twitter.com/Fablabtorino" data-tweet-limit="5">Tweets by Fablabtorino</a>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  
+
+
+
+
+
+</aside>
+
+            
+
+          </div>
+
+          <!-- Content -->
+          <div class="col-md-8 blog-articles-container">
+
+            <!-- Project -->
+<div class="post-full">
+  <article class="blog-article blog-single-page clearfix">
+
+    <!-- Article Header -->
+    <header class="article-header">
+      <div class="article-title">
+        <h3 class="title">fabLabTorino</h3>
+        <h4 class="category"></h4>
+      </div>
+    </header>
+
+    <!-- Article Content -->
+    <div class="article-content">
+      <p>Fablab Torino è stato il primo Fablab ad aprire in Italia. Nato nel 2012 insieme all’esperienza di Officine Arduino (adesso Officine Innesto), con l’aiuto di Arduino LLC (ora BCMI LABS) e <a href="http://www.toolboxoffice.it/en/">Toolbox Coworking</a>.</p>
+
+<p>Molte delle macchine del laboratorio (Lasercutter, CNC, etc) sono di proprietà di Officine Innesto e sono condivise - insieme allo spazio - con l’Associazione Fablab Torino, per le persone che vogliono imparare, capire, trasformare e creare.</p>
+
+<p>L’officina diventa accessibile agli associati dopo le quattro del pomeriggio quasi tutti i giorni. Molte delle attività e dei corsi sono tenuti all’interno della struttura, sia in giorni settimanali che festivi. Diverse sono le piccole community nate in questo spazio, vai su <a href="fablabtorino.com">Fablab Torino site</a> or <a href="https://www.facebook.com/fablabtorino/">Facebook page</a> o segui <a href="https://twitter.com/Fablabtorino">Fablab Torino’s Twitter</a> in modo da essere aggiornato sulle attività e gli eventi che ospitiamo qui.</p>
+
+<p>La forte dedizione di Officine Innesto nella promozione di questa community si basa sulla convinzione che ogni organizzazione verticale (propria di una azienda) che lavora in ambiti così mutevoli (educazione maker, intrattenimento educativo, robotica, domotica, open-hardware, opensource, agricoltura open) abbia bisogno di una community orizzontale con cui lavorare, interagire e condividere idee: <strong>per crescere</strong>.</p>
+
+<p>L’esperienza di Fablab Torino nasce da forze ed esigenze diverse con un unico obiettivo: portare la Fabbricazione Digitale e la cultura Open Source in un luogo fisico dove macchine, idee, persone e nuovi approcci si possano mescolare liberamente.</p>
+
+<p>I Fablab lavorano spesso come un punto di incontro di competenze, in cui le persone che lo frequentano trovano tra gli altri utenti le competenze che gli mancano per concretizzare i loro progetti.</p>
+
+<p>Ancora oggi, Fablab Torino continua ad usufruire del supporto di Officine Innesto.</p>
+
+<p>Il consiglio direttivo dell’associazione Fablab Torino è composto da:</p>
+
+<p><strong>President</strong>: Giovanni Bindi<br />
+<strong>Consiglieri:</strong> Marco Cassino, Riccardo Torrazza, Fabrizio Alessio, Gianfranco Caputo, Davide Gomba.</p>
+
+<p>I membri fondatori dell’associazione Fablab Torino sono:</p>
+
+<ul>
+  <li>Massimo Banzi</li>
+  <li>Riccardo Luna</li>
+  <li>Paola Zini</li>
+  <li>Alex Ferraris</li>
+  <li>Andrea Graziano</li>
+  <li>Cesare Griffa</li>
+  <li>Franco Magni</li>
+  <li>Giorgio Olivero</li>
+  <li>Andrea Patrucco</li>
+  <li>Lorenzo Romagnoli</li>
+  <li>Gualtiero Tumolo</li>
+  <li>Davide Gomba</li>
+  <li>Enrico Bassi</li>
+</ul>
+
+<p><br /></p>
+<div class="photo-carousel">
+    <img src="/images/projects/fab1.jpg" />
+    <img src="/images/projects/fab2.jpg" />
+    <img src="/images/projects/fab3.jpg" />
+    <img src="/images/projects/fab4.jpg" />
+    <img src="/images/projects/fab5.jpg" />
+    <img src="/images/projects/fab6.jpg" />
+    <img src="/images/projects/fab7.jpg" />
+    <img src="/images/projects/fab8.jpg" />
+</div>
+
+    </div>
+
+    <!-- Article Tool Boxes -->
+    <div class="article-boxes">
+      <!-- Share Article Links Box -->
+      <div class="share-article box clearfix">
+        <span class="title">Share:</span>
+        <div class="social-icons box-content">
+          <ul class="icons global-text-color-icons">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=&t=" target="_blank"><i class="fi flaticon-facebook"></i></a></li>
+            <li><a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank"><i class="fi flaticon-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/share?url=" target="_blank"><i class="fi flaticon-google-plus"></i></a></li>
+            <li><a href="http://pinterest.com/pin/create/button/?url=&description=" target="_blank"><i class="fi flaticon-pinterest"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </article>
+  
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'officine-cc';
+        var disqus_identifier = "/projects/fablab-it";
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+</div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Site Footer -->
+<footer class="site-footer" id="footer">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 col-md-push-3 footer-info text-center">
+
+        <div class="footer-logo">
+          <img src="/images/logo-focus.svg" width="140" alt="Officine Innesto" />
+        </div>
+
+        <div class="footer-info-text">
+          <p>Officine Innesto SRL via A. da Montefeltro 2, 10134 Torino P.IVA/CF. IT10631880019</p>
+        </div>
+
+        <div class="social-icons">
+          <ul class="icons">
+            
+
+            
+
+            
+
+            
+            <li><a href="https://www.facebook.com/officineinnesto/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            
+
+            
+            <li><a href="https://twitter.com/OfficineArduino" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            
+
+            
+
+            
+
+            
+
+            
+            <li><a href="https://github.com/OfficineArduinoTorino/" target="_blank"><i class="fa fa-github"></i></a></li>
+            
+
+            
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="col-md-8 col-md-push-2 footer-copyright">
+        <div class="footer-text text-center">
+          <p>All Right Reserved!</p>
+        <p><a href="officine.cc">officine&trade;</a> &copy; 2018 Copyright</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Go To Top Button -->
+<a href="#home" class="go-to-top-button"><i class="pe-7s-angle-up"></i></a>
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-111316626-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+
+    <!-- Importing Scripts -->
+
+<!-- jQuery CDN -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- If CDN fails than use local jQuery -->
+<script>window.jQuery || document.write('<script src="/js/jquery-3.0.0.min.js"><\/script>')</script>
+
+<!-- Owl Carousel -->
+<script src="/js/carousel.min.js" charset="utf-8"></script>
+
+<!-- Parallaxing & SmoothScroll -->
+<!-- <script src="/js/smoothscroll.js" charset="utf-8"></script> -->
+<script src="/js/scrollax.min.js" charset="utf-8"></script>
+
+<!-- RSS reader -->
+<script src="/js/yrss.js" charset="utf-8"></script>
+
+<!-- Main JS -->
+<script src="/js/main.js" charset="utf-8"></script>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#eaf7f7",
+                "text": "#5c7291"
+            },
+            "button": {
+                "background": "#0199b1"
+            }
+        },
+        "content": {
+            "message": "Questo sito utilizza i cookie.",
+            "dismiss": "OK",
+            "link": "Leggi di più.",
+            "href": "http://fablabtorino.org/privacy/"
+        }
+    })});
+</script>
+
+
+  </body>
+
+</html>

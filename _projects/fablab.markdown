@@ -2,9 +2,12 @@
 layout: project
 title: fabLabTorino
 image: fab3.jpg
+ref: fabLabTo
 external_url: http://fablabtorino.org/
 fbpage: https://www.facebook.com/fablabtorino/
 twitter: Fablabtorino
+lang: en
+ref: fablabto
 ---
 
 Fablab Torino is on the first Italian Fablabs opening. Born in 2012 together with the experience of Officine Arduino (now Officine Innesto), with the help of Arduino LLC (now BCMI LABS) and [Toolbox Coworking](http://www.toolboxoffice.it/en/).

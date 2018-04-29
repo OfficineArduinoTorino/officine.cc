@@ -9,13 +9,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.features-title }}</h2>
+        <h2>{{ site.features-title[page.lang] }}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.features-description }}</p>
+        <p>{{ site.features-description[page.lang] }}</p>
       </div>
 
     </div>
@@ -31,8 +31,8 @@
             {{ svg }}
         </div>
         <div class="content">
-          <h3>{{ feature.title }}</h3>
-          <p>{{ feature.description }}</p>
+          <h3>{{ feature.title[page.lang] }}</h3>
+          <p>{{ feature.description[page.lang] }}</p>
         </div>
       </div>
 

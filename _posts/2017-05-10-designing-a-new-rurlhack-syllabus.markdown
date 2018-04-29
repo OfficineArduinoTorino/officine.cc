@@ -2,10 +2,12 @@
 layout: post
 title:  "Defining a new #ruralhack syllabus"
 tagline: Single Page
+ref: ruralhack
 date: 2017-05-10 12:51
 categories: [Teaching]
 tags: [Hacks, Agriculture, Teaching, LPWAN]
 image: img-01.jpg
+lang: en
 ---
 
 Since we ran [our first RuralHack](https://www.flickr.com/photos/142132017@N03/albums/72157670025633602) last year, I've been watching towards summer '17 as a challenging opportunity to change the way we discuss and face DIY, bottom-up agriculture and farm-life in general.
