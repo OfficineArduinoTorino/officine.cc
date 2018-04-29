@@ -58,6 +58,26 @@
             {% endif %}
 
             <li><a href="{{ site.baseurl }}/index.html#contact">Contact</a></li>
+
+            {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+            {% for p in posts %}
+              {% if p.lang != page.lang %}
+                <li><a href="{{ p.url }}">{{ p.lang }}</a></li>
+              {% endif %}
+            {% endfor %}
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+            {% for p in pages %}
+              {% if p.lang != page.lang %}
+                <li><a href="{{ p.url }}">{{ p.lang }}</a></li>
+              {% endif %}
+            {% endfor %}
+            {% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' %}
+            {% for p in projects %}
+              {% if p.lang != page.lang %}
+                <li><a href="{{ p.url }}.html">{{ p.lang }}</a></li>
+              {% endif %}
+            {% endfor %}
+
           </ul>
         </nav>
 

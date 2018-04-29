@@ -6,6 +6,7 @@ ref: kids
 external_url: http://fablabforkids.it/
 fbpage: https://www.facebook.com/fablabforkids/
 lang: it
+ref: fablabforkids
 ---
 
 Fablab for Kids è una piattaforma educativa che ha l'intento di avvicinare le ragazze ed i ragazzi alle tecnologie del fablab, alla cultura dell'auto-costruzione e del fai-da-te, e di promuovere un'attitudine attiva e creativa verso le materie scientifiche e tecnologiche.

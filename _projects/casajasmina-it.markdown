@@ -7,6 +7,7 @@ external_url: http://casajasmina.cc/
 fbpage: https://www.facebook.com/casajasmina.to/
 twitter: casaJasmina
 lang: it
+ref: casajasmina
 ---
 
 Casa Jasmina è un progetto di ricerca nell'ambito della Domotica e dell'IoT (Internet delle Cose). Attraverso questo progetto abbiamo cercato (stiamo cercando) di declinare insieme Design, Elettronica Open Source e usabilità.

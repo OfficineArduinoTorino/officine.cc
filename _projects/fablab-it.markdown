@@ -7,6 +7,7 @@ external_url: http://fablabtorino.org/
 fbpage: https://www.facebook.com/fablabtorino/
 twitter: Fablabtorino
 lang: it
+ref: fablabto
 ---
 
 Fablab Torino è stato il primo Fablab ad aprire in Italia. Nato nel 2012 insieme all'esperienza di Officine Arduino (adesso Officine Innesto), con l'aiuto di Arduino LLC (ora BCMI LABS) e [Toolbox Coworking](http://www.toolboxoffice.it/en/).

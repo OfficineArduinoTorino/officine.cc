@@ -7,6 +7,7 @@ external_url: http://www.ruralhack.org/
 fbpage: https://www.facebook.com/RuralHackProject/
 twitter: RuralHackIt
 lang: it
+ref: rh
 ---
 
 [RuralHack](http://www.ruralhack.org/) è un progetto di ricerca che indaga gli aspetti culturali e tecnologici che legano tra Open Hardware e l'agricoltura.

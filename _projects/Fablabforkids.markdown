@@ -6,6 +6,7 @@ ref: kids
 external_url: http://fablabforkids.it/
 fbpage: https://www.facebook.com/fablabforkids/
 lang: en
+ref: fablabforkids
 ---
 
 
