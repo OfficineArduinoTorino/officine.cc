@@ -4714,7 +4714,7 @@ header.site-header {
     header.site-header .site-navigation-bar .navigation-bar nav.nav-menu {
       position: relative;
       display: block;
-      float: right;}
+      float: right; }
       header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li {
         float: left;
         margin-right: 30px; }
@@ -4999,7 +4999,7 @@ section.site-section {
   background: #fff;
   /*
     content.section-content {
-
+  
       h1, h2, h3, h4, h5, h6 {
         font-weight: bold;
         text-transform: uppercase;
@@ -5008,7 +5008,7 @@ section.site-section {
       p {
         font-weight: bold;
       }
-
+  
       hr.normal {
         margin: 20px 0;
         visibility: hidden;
