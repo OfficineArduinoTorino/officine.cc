@@ -113,7 +113,7 @@ about-title:
   it: Interazione e Connettività alla portata di tutti
 about-description:
   en: Officine Innesto is an innovative company that deals with design and technology. We connect the physical with the digital world. We deal with education, workshops and physical prototyping.
-  it: Quando devi far comunicare un oggetto con il mondo esterno, o hai bisogno di controllarlo da remoto; quando hai un'idea in mente e vuoi trasformarla in prodotto. Gente che apprezza i problemi e trova soluzioni.
+  it: Quando devi far comunicare un oggetto con il mondo esterno, o hai bisogno di controllarlo da remoto; quando hai un'idea in mente e vuoi trasformarla in prodotto. Un Team che apprezza i problemi e trova soluzioni.
 
 
     # Officine Innesto è un'azienda che sperimenta in campo tecnologico e del Design. Realizziamo oggetti fisici con cui interagiamo in modo digitale. Offriamo consulenze, percorsi educativi, workshop e servizi di prototipazione rapida.
@@ -177,7 +177,7 @@ projects-title:
   it: Progetti
 projects-description:
   en: We have been investing on different topics, around the conversation between man and machine. Many different landscapes in the background, such as the home environment, the working place, the prototyping/production domain, and STEM/STEAM education.
-  it: Abbiamo sperimentato in diverse direzioni intorno al rapporto tra uomo e algoritmo, sia esso un chat-bot, una casa intelligente o un oggetto fisico. Sforzo ed attenzione continua alla divulgazione sul territorio ci hanno spinto a investire nella formazione STEAM nei confronti di adulti e bambini.
+  it: Abbiamo sperimentato in diverse direzioni intorno al rapporto tra uomo e algoritmo, sia esso un chat-bot, una casa intelligente o un oggetto fisico. Sforzo ed attenzione continua alla divulgazione sul territorio ci hanno spinto a investire nella formazione STEAM nei confronti di ragazzi e bambini.
 
 #####################################
 ##########  Core Features  ##########
@@ -243,7 +243,7 @@ blog-title:
   it: Blog
 blog-description:
   en: As you can understand Officine Innesto is a containter of many different things, the horyzontal and bottom-up community of Fablab Torino or the R&D experimental Home of Casa Jasmina, the agro-educational tech-savvy experience of Ruralhack (shared with pals @RuralHub) or the STEAM formats of FablabForKids. All of this site / experiences have their very own blogs and social. Not expect much from our new-born blog, most of the time put apart by other (stronger?) needs. That is, the shoemaker's children go barefoot
-  it: Cerchiamo di dare aggiornamenti alle nostre esperiense più recenti
+  it: Aggiornamenti sulle nostre esperienze più recenti
 # feeds-title: ... and Friends
 # feeds-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
 comments-enable: true
