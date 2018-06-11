@@ -28,7 +28,8 @@ Come ricorda Giacomo Borghi nel video, la Domotica non si sostituisce al lavoro 
 
 Gli interventi della casa - negoziati con gli utenti, ma in alcuni casi standard e ascrivibili ad un più generico concetto di "spazio monitorato" saranno poi molto semplici:
 
-- accesso da remoto tramite carta o codice  
+
+- accesso da remoto tramite carta o codice   
 - monitoraggio ambientale (Inquinamento Acustico, GAS, Temperatura, Qualità dell'Aria, uso della Televisione)  
 - monitoraggio alimentare (accesso ai vani: frigo, freezer, dispensa)  
 - realizzazione piccola web app su costruzione di menu  

@@ -298,21 +298,34 @@
 
     <!-- Article Content -->
     <div class="article-content">
-      <p>Fin da quando tenemmo <a href="https://www.flickr.com/photos/142132017@N03/albums/72157670025633602">il nostro primo RuralHack</a> l’anno scorso, ho considerato l’estate del 2017 come un’interessante opportunità per cambiare e rivedere il modo in cui avevamo affrontato fai-da-té tecnologico, agricoltura dal basso e agricoltura.</p>
+      <p><em>Casalab</em>, o precedetentemente <em>Casa delle Autonomie</em> , è il nome del progetto di Domotica Assistenziale svolto per la <a href="http://www.solidarietaeservizi.it/home.html">Cooperativa Solidarietà e Servizi</a> nell&#39;ultimo anno e mezzo.</p>
 
-<p>Abbiamo provato a consolidare l’esperienza del primo anno: alcuni dei nostri primi studenti finirono per avere dei problemi reali, principalmente correlati all’utilizzo delle nostre soluzioni nelle serre delle varie aziende agricole.
-La gestione del consumo e l’accesso alla rete erano e sono i tempi più importanti, tanto da portarmi così ad aggiornare il percorso che vedeva l’uso del Wifi con le nuove innovazioni di questi due anni.</p>
+<p>Il progetto ha visto diverse fasi ed interventi, ma avendo raggiunto un certo livello di autonomia abbiamo pensato fosse giunto il momento di raccontarlo e confrontarci con domande e possibili richieste da parte di diverse persone e realtà che hanno seguito questa storia in divenire.</p>
 
-<p>Per testare e celebrare il tutto abbiamo organizzato un RuralHack a Pacentro (AQ), con <a href="http://tommasospagnoli.com/">Tommaso Spagnoli</a> che aveva già presenziato nel 2016 al RuralHack di Calvanico. La location é una meravigliosa fattoria didattica / agriturismo, <a href="www.fattoriatanadellavolpe.com">La Tana Della Volpe</a>  e l’idea era di ricreare la stessa atmosfera positiva dell’esperienza dell’anno scorso in un workshop  <a href="https://store.arduino.cc/ruralhack-workshop-pacentro">acquistabile sull’Arduino Store</a> (June 23 to 25).</p>
+<p><img src="/images/blog/field-analysis.png" alt=""></p>
 
-<h3 id="wifi-edition-vs-lpwan-edition">Wifi Edition vs LPWAN Edition</h3>
+<p>Per capire quali esigenze fosse necessario monitorare all&#39;interno della casa, <strong>abbiamo svolto un lavoro di analisi sul campo coinvolgendo utenti, famiglie e operatori</strong>. Per questo sprint di analisi ci siamo avvalsi dell&#39;aiuto di <strong>Ilaria Scarpellini</strong>, con la quale siamo riusciti a identificare aree di intervento condivise con il cliente.</p>
 
-<p>Sono successe tante cose in quest’ultimo anno. Abbiamo visto <a href="https://novemberfive.co/blog/internet-of-things-lora-vs-sigfox/">lo stabilizzarsi di LoRa e Sigfox</a> e abbiamo testato la nuova  <a href="https://store.arduino.cc/homepage/arduino-mkrfox1200">Mkrfox1200</a> di Arduino e la <a href="https://www.adafruit.com/product/3179">Adafruit Feather M0 RFM96</a>, con LoRa a bordo. Entrambi i prodotti sono economici e di facile utilizzo grazie alla <a href="https://www.arduino.cc/en/guide/cores">modularità dell’IDE di Arduino</a>.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-zY2yGYtukU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<p>Stiamo realizzando un nuovo capitolo dell’esperienza RuralHack progettata per <strong>LPWAN</strong>. Basata sullo stesso <a href="https://store.arduino.cc/rural-hack-kit">Rural
- Kit</a> che abbiamo fatto l’anno scorso, per sostituire in futuro Arduino Mkr1000 con una o forse entrambe le board LPWAN, e permettere in questo modo agli studenti di dare un’occhiata ad entrambe le campane.</p>
+<p>Il mondo delle Cooperative Sociali gioca un ruolo fondamentale nella vita e nel sostegno di persone con piccoli o grandi problemi, di carattere fisico o - come nel nostro caso - psicologico, sul territorio italiano.</p>
 
-<p><img src="http://localhost:4000/images/blog/e000085_front.jpg" alt="RuralHack Kit" /></p>
+<p>Centrale è qui il tema della Casa, all&#39;interno della quale andranno a vivere Laura e Tatiana, entrambe con tanti anni di comunità alle spalle ed in grado - fatto salvo una serie di piccolissimi interventi - di condurre una vita per conto proprio, in totale indipendenza dall&#39;operatore che è <strong>comunque presente quotidianamente nella struttura</strong>.  </p>
+
+<p>Come ricorda Giacomo Borghi nel video, la Domotica non si sostituisce al lavoro dell&#39;operatore, ma diventa uno strumento attivo nel suo bagaglio di competenze.</p>
+
+<p>Gli interventi della casa - negoziati con gli utenti, ma in alcuni casi standard e ascrivibili ad un più generico concetto di &quot;spazio monitorato&quot; saranno poi molto semplici:</p>
+
+<ul>
+<li>accesso da remoto tramite carta o codice<br></li>
+<li>monitoraggio ambientale (Inquinamento Acustico, GAS, Temperatura, Qualità dell&#39;Aria, uso della Televisione)<br></li>
+<li>monitoraggio alimentare (accesso ai vani: frigo, freezer, dispensa)<br></li>
+<li>realizzazione piccola web app su costruzione di menu<br></li>
+</ul>
+
+<p>I dati sono storati in locale e mandati agli operatori con frequenza settimanale. Nel caso che alcune di queste variabili rientri in degli &quot;eventi importanti&quot; (i.e. <em>Qualcuno esce o entra dopo mezzanotte, dispensa aperta di notte o musica molto alta</em>) l&#39;operatore viene notificato in tempo reale.</p>
+
+<p>Il progetto Casalab é stata la prima volta in cui ci siamo trovati ad adattare software che usiamo per la Domotica in ambito Assistenziale. È stata un grande sfida che ci ha insegnato molto, e spero avremo occasione di ripercorrere questo tipo di percorsi in futuro.</p>
 
     </div>
 
