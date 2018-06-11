@@ -27,10 +27,12 @@ Centrale è qui il tema della Casa, all'interno della quale andranno a vivere La
 Come ricorda Giacomo Borghi nel video, la Domotica non si sostituisce al lavoro dell'operatore, ma diventa uno strumento attivo nel suo bagaglio di competenze.
 
 Gli interventi della casa - negoziati con gli utenti, ma in alcuni casi standard e ascrivibili ad un più generico concetto di "spazio monitorato" saranno poi molto semplici:
-* accesso da remoto tramite carta o codice
-* monitoraggio ambientale (Inquinamento Acustico, GAS, Temperatura, Qualità dell'Aria, uso della Televisione)
-* monitoraggio alimentare (accesso ai vani: frigo, freezer, dispensa)
-* realizzazione piccola web app su costruzione di menu
+
+* accesso da remoto tramite carta o codice  
+* monitoraggio ambientale (Inquinamento Acustico, GAS, Temperatura, Qualità dell'Aria, uso della Televisione)  
+* monitoraggio alimentare (accesso ai vani: frigo, freezer, dispensa)  
+* realizzazione piccola web app su costruzione di menu  
+
 
 I dati sono storati in locale e mandati agli operatori con frequenza settimanale. Nel caso che alcune di queste variabili rientri in degli "eventi importanti" (i.e. _Qualcuno esce o entra dopo mezzanotte, dispensa aperta di notte o musica molto alta_) l'operatore viene notificato in tempo reale.
 
