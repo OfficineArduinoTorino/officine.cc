@@ -19,10 +19,10 @@ Rural hack is organizing workshops around Italy and Europe in collaboration with
 
 
 <div class="photo-carousel">
-    <img src="/images/projects/rural 1.jpg">
     <img src="/images/projects/rural 2.jpg">
     <img src="/images/projects/rural 3.jpg">
     <img src="/images/projects/rural 4.jpg">
     <img src="/images/projects/rural 5.jpg">
     <img src="/images/projects/rural 6.jpg">
+    <img src="/images/projects/rural 1.jpg">
 </div>
