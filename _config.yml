@@ -74,10 +74,6 @@ twitter: 'https://twitter.com/OfficineArduino'
 github: 'https://github.com/OfficineArduinoTorino/'
 # gitlab: 'http://example.com'
 
-markdown: kramdown
-kramdown:
-input: GFM
-
 
 #########################
 ######   Widgets   ######
