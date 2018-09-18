@@ -10,7 +10,9 @@ image: alcatraz-front.jpg
 lang: it
 ---
 
-Per il rientro a scuola, abbiamo deciso di **produrre e regalare attraverso [Fablab for Kids](http://fablabforkids.it)** - la piattaforma di STEAM Education di Officine - **alcuni esemplari di [Alcatraz](https://fablabforkids.it/scuole.html)**, un rimedio artigianale ma efficace al disturbo prodotto dagli smartphone in classe. Si tratta di **una rastrelliera con trenta “celle” numerate**, da collocare in bella vista sulla cattedra, nella quale **all’inizio di ogni lezione gli alunni saranno chiamati a riporre i rispettivi cellulari**. Un oggetto che, con ogni probabilità, sarà preso in antipatia dai ragazzi - e infatti li abbiamo preceduti, affibbiandogli il nome del celeberrimo carcere.
+Per il rientro a scuola, abbiamo deciso di **produrre e regalare attraverso [Fablab for Kids](http://fablabforkids.it)** - la piattaforma di STEAM Education di Officine - **alcuni esemplari di [Alcatraz](https://fablabforkids.it/scuole.html)**, un rimedio artigianale ma efficace al disturbo prodotto dagli smartphone in classe.  
+
+Si tratta di **una rastrelliera con trenta “celle” numerate**, da collocare in bella vista sulla cattedra, nella quale **all’inizio di ogni lezione gli alunni saranno chiamati a riporre i rispettivi cellulari**. Un oggetto che, con ogni probabilità, sarà preso in antipatia dai ragazzi - e infatti li abbiamo preceduti, affibbiandogli il nome del celeberrimo carcere.
 
 
  ![Alcatraz](https://github.com/OfficineArduinoTorino/officine.cc/blob/master/images/blog/alcatraz-front.jpg?raw=true)
