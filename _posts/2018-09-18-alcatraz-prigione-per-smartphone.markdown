@@ -12,6 +12,7 @@ lang: it
 
 ## Perché stiamo regalando delle curiose rastrelliere per cellulari alle scuole di Torino
 
+
 Per il rientro a scuola, abbiamo deciso di **produrre e regalare attraverso [Fablab for Kids](http://fablabforkids.it)** - la piattaforma di STEAM Education di Officine - **alcuni esemplari di [Alcatraz](https://fablabforkids.it/scuole.html)**, un rimedio artigianale ma efficace al disturbo prodotto dagli smartphone in classe.  
 
 Si tratta di **una rastrelliera con trenta “celle” numerate**, da collocare in bella vista sulla cattedra, nella quale **all’inizio di ogni lezione gli alunni saranno chiamati a riporre i rispettivi cellulari**. Un oggetto che, con ogni probabilità, sarà preso in antipatia dai ragazzi - e infatti li abbiamo preceduti, affibbiandogli il nome del celeberrimo carcere.
@@ -45,7 +46,7 @@ Non siamo i primi ad averci pensato: per esempio esistono tessuti in grado di sc
 Noi **abbiamo pensato a una rastrelliera per le sue alte possibilità di riproducibilità e customizzazione per ogni scuola**: speriamo di vederne nascere numerose versioni diverse, modificate o adattate ad esigenze che noi sicuramente non ci siamo immaginati.
 Abbiamo voluto inserire uno spazio per dei caricatori (“mi privo del cellulare ma lo lascio in carica”), ma si possono immaginare molte funzionalità diverse.
 
-**Sei una scuola e vuoi costruirne uno?** Scaricalo dal sito di Fablab for Kids e poi scrivici, vogliamo vederlo! **Sei un insegnante o un genitore e lo vuoi in regalo?** Una delle tre copie in palio è già stata assegnata, quindi scrivi subito a **info@fablabforkids.it**
+**Sei una scuola e vuoi costruirne uno?** [Scaricalo](https://fablabforkids.it/scuole.html) dal sito di Fablab for Kids e poi scrivici, vogliamo vederlo! **Sei un insegnante o un genitore e lo vuoi in regalo?** Una delle tre copie in palio è già stata assegnata, quindi scrivi subito a **info@fablabforkids.it**
 
 ---
 
