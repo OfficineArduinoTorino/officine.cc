@@ -10,7 +10,7 @@ image: alcatraz-front.jpg
 lang: it
 ---
 
-# Perché stiamo regalando delle curiose rastrelliere per cellulari alle scuole di Torino
+### Perché stiamo regalando delle curiose rastrelliere per cellulari alle scuole di Torino
 
 Per il rientro a scuola, abbiamo deciso di **produrre e regalare attraverso [Fablab for Kids](http://fablabforkids.it)** - la piattaforma di STEAM Education di Officine - **alcuni esemplari di [Alcatraz](https://fablabforkids.it/scuole.html)**, un rimedio artigianale ma efficace al disturbo prodotto dagli smartphone in classe.  
 
