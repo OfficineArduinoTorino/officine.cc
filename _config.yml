@@ -311,7 +311,7 @@ team:
   vimeo: '#'
 
 - name: Cristina Bignante
-  tagline: junior social media manager
+  tagline: Junior Social Media Manager
   bio:
   avatar: bignante.jpg
   youtube: '#'
@@ -322,7 +322,7 @@ team:
   vimeo: '#'
 
 - name: Elena Gabrielli
-  tagline: administration and support
+  tagline: Administration and Support
   bio:
   avatar: elena.jpg
   youtube: '#'
@@ -332,16 +332,16 @@ team:
   google-plus: '#'
   vimeo: '#'
 
-- name: Silvia Galfo
-  tagline: junior designer and prototyper
-  bio:
-  avatar: silvia .jpg
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+# - name: Silvia Galfo
+#   tagline: junior designer and prototyper
+#   bio:
+#   avatar: silvia .jpg
+#   youtube: '#'
+#   pinterest: '#'
+#   facebook: '#'
+#   twitter: '#'
+#   google-plus: '#'
+#   vimeo: '#'
 
 - name: Giacomo Leonzi
   tagline: Data Scientist and Maker
